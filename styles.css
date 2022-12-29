@@ -24,13 +24,15 @@
   .navbar {
       display: flex;
       justify-content: flex-end;
-      height: 50px;
+      height: 6vh;
       width: 100%;
       background-color: #EED2CC;
+      top: 0;
+      position: fixed;
   }
   
   nav > ul > li{
-      margin: 0 5px;
+      margin: 0 1.5vw;
   }
   
   .navbar li:last-of-type{
@@ -49,21 +51,69 @@
   }
   
   div#content{
-      margin: 25vh 20% 8%;
-      min-margin: 50px;
+      margin: 29vh 20% 8%;
   }
   
+  .container{
+      height: 64.5vh;
+      border: 1px solid black;
+      overflow: hidden;
+      margin-top: 6.5vh;
+  
+  }
   h4{
       font-family: Cousine;
       letter-spacing: 3px;
-      font-size: max(20px, 2vw);
-      color: #4A6D62;
+      font-size: max(20px, 1.5vw);
+      color: #86ACA0;
   }
   
   h1{
-      background-color: white;
       margin: 1vh 0;
-      font-size: max(28px, 8vw);
+      font-size: max(60px, 6vw);
+  }
+  
+  div.divider{
+      height: 0.17vh;
+      width: 15%;
+      background-color: #86ACA0;
+  }
+  
+  p{
+      font-size: max(16px, 1.3vw);
+      line-height: 1.25em;
+  }
+  p#intro{
+      margin-right: 10%;
+  }
+  
+  h2{
+      padding-top: 15%;
+      text-align: center;
+      font-size: max(25px, 3.5vw);
+  }
+  
+  section div.container{
+      height:94vh;
+  }
+  
+  .about-p{
+      text-align: justify;
+      text-indent: 3em;
+  }
+  
+  .details-container{
+      margin: 5em 0;
+  }
+  .details{
+      text-align: left;
+      text-indent: 0;
+      margin: 0 3em;
+  }
+  
+  .position-container{
+      background-color: white;
+      margin: 5vh 3vw;
   }
   .inline{
       display: inline;
