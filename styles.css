@@ -230,6 +230,7 @@ nav {
 .project-img {
 	padding-top: 15px;
   padding-right: 30px;
+  border: 1px solid black;
 }
 
 .image-text {
