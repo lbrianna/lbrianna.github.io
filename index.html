@@ -1,95 +1,245 @@
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="styles.css">
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Cousine:ital@0;1&display=swap" rel="stylesheet">
-		<title>Brianna Li</title>
-	</head>
-	<body>
-		<main>
-			<div class="navbar">
-				<nav>
+
+<head>
+	<!-- Metadata -->
+	<meta charset="UTF-8">
+	<title>Brianna Li</title>
+	<meta name="description" content="Brianna Li's professional portfolio website with information about work experience, projects, and contact information.">
+	<meta name="keywords" content="Brianna Li, Boston University, Computer Science, Portfolio, HTML, CSS">
+	<meta name="author" content="Brianna Li">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Links -->
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<script src="script.js"></script>
+
+</head>
+
+<body>
+	<!--START NAVBAR-->
+	<nav class="navbar" id="navbar">
+		<a id="logo-link" href="#welcome">
+			<img id="nav-logo" class="logo" src="https://i.ibb.co/fdnYJFT/Portfolio-Logo-Square-removebg-preview.png" alt="logo">
+		</a>
+		<ul class="nav-links">
+			<li class="nav-item"><a href="#about">about</a></li>
+			<li class="nav-item"><a href="#experience">experience</a></li>
+			<li class="nav-item"><a href="#projects">projects</a></li>
+			<li class="nav-item"><a href="#blog">blog</a></li>
+			<li class="nav-item"><a href="#contact">contact</a></li>
+		</ul>
+	</nav>
+	<!--END NAVBAR-->
+	<!--FIXED LINKS-->
+	<div class="fixed-links">
+		<a href="https://www.linkedin.com/in/lbrianna/"><img src="https://www.citypng.com/public/uploads/preview/linkedin-square-white-icon-transparent-png-11640440452zi2ykndpw2.png" alt="linkedin logo"/></a>
+		<a href="https://github.com/lbrianna"><img src="https://i.ibb.co/rZRk1Z7/github-mark-white.png" alt="github-mark-white" /></a>
+			<a href = "mailto: briannali.work@gmail.com"><img src="https://i.ibb.co/0h09s9S/Email-lgoo.png" alt="linkedin logo"/></a>
+		<div class="vertical-line"></div>
+	</div>
+	<!--END FIXED LINKS-->
+	<!--START #WELCOME-->
+	<section class="welcome section">
+		<div id="welcome-container" class="container">
+			<h4>hi, my name is</h4>
+			<h1>Brianna Li</h1>
+			<div class="thick-line"></div>
+			<p>I'm a sophomore at Boston University studying Mathematics and Computer Science. I'm interested in software engineering and management.</p>
+			<br>
+			<p>I would describe myself as an eager learner, innovative thinker, and compassionate leader. Currently, I am expanding my skills through personal projects like this portfolio!</p>
+		</div>
+		<!--#welcome-container-->
+	</section>
+	<!--END #WELCOME-->
+
+	<!--START #ABOUT-->
+	<section id="about" class="about section">
+		<h2>about</h2>
+		<div class="thin-line"></div>
+		<div class="about-container">
+		<div class="about-text">
+		<p>Hi there! I'm Brianna, a Mathematics & Computer Science student at Boston University with a passion for software engineering and management. I'm always looking for ways to expand my skill set, and I have a diverse range of professional experience.<br>
+		<br>
+		I am always curious, so I am learning something new every day. Three words to describe me are: warm, motivated and a work-in-progress. There's always something for me to improve – intellectually, socially, emotionally, and everything in between!<br>
+		<br>
+		Thanks for reading – I invite you to explore the rest of my website and learn more about me!</p>
+		</div>
+		<div id="photo-container" class="container">
+			<a id="photo-link" href="https://www.linkedin.com/in/lbrianna/"><img src="https://i.ibb.co/zRxCMxt/Full-Size-Render-copy-7-48-49-PM.png" alt="Brianna Li"/></a>
+		</div>
+		</div>
+	</section>
+	<!--END #ABOUT-->
+
+	<!--START #EXPERIENCE-->
+	<section id="experience" class="experience section">
+		<h2>experience</h2>
+		<div class="thin-line"></div>
+		<ul class="collapsible-list">
+			<!--experience 1-->
+			<li>
+				<div class="collapsible-header">Marketing Manager <span>@ <a href="https://www.instagram.com/bupmready/">PMReady</a></span></div>
+				<div class="collapsible-content">
+					<p class="details">Jan 2023 - Present | Boston, MA</p>
 					<ul>
-						<li class="inline"><a href=#about>about</a></li>
-						<li class="inline"><a href=#experience>experience</a></li>
-						<li class="inline"><a href=#projects>projects</a></li>
-						<li class="inline"><a href=#contact>contact</a></li>
-						<li class="inline"><a href=#contact>resume</a></li>
+						<li> Utilize knowledge of product design and project management to advise product teams on conducting user interviews, market research and creating viable MVP prototypes.</li>
+						<li>Design 3-month social media campaign for newly established campus club by creating weekly Instagram graphics, resulting in 85% member attendance at all weekly meetings.</li>
 					</ul>
-				</nav>
-			</div>
-			<div id="content">
-				<div class="container" id="intro-container">
-					<h4>hi! my name is</h4>
-					<h1>Brianna Li</h1>
-					<div class="divider"></div>
-					<p id="intro">I am a second-year Mathematics & Computer Science major at Boston University. I enjoy challenging myself through self-led projects, and learning in and out of the classroom. I am interested in back-end engineering and technical program management, and am expanding my skillset everyday.</p>
-					</p>
 				</div>
-				<section id="about-section" role="region">
-					<div class="container">
-						<h2 id="about">About</h2>
-						<p class="about-p">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut velit purus. Maecenas libero nulla, sagittis sed odio ac, semper ultrices ligula. Nulla a enim eget velit molestie feugiat vel in lorem. Donec pulvinar blandit erat at vehicula. Proin feugiat ullamcorper tellus, non tempor augue mattis sit amet. Quisque sed ullamcorper dolor, vel ullamcorper eros. Nam risus dui, eleifend a elit sit amet, consequat vehicula quam. Mauris non faucibus lorem. Duis congue orci ultricies, blandit ipsum ut, interdum sem. Nulla euismod varius sapien, eget ornare felis blandit sit amet.</p>
-						<div class="details-container">
-						<p class="about-p details"><b>Languages</b>: Python, Java, C, HTML/CSS, Javascript</p>
-						<p class="about-p details"><b>Coursework</b>: Linear Algebra, Discrete Math, Computer Systems, Probability</p>
-					</div>
-					</div>
-				</section>
-				<section id="experience-section" role="region">
-					<div class="container">
-						<h2 id="experience">Experience</h2>
-						<div class="position-container">
-							<h3 class="inline">Position <a href="">@ Experience 1</a></h3>
-							<p class="inline"><i class="right">MM/YYYY-MM/YYYY</i></p>
-							<ul>
-								<li>Bullet Point 1</li>
-								<li>Bullet Point 2</li>
-								<li>Bullet Point 3</li>
-						</ul>
-						</div>
-						<div class="position-container">
-							<h3 class="inline">Position @ <a href="">Experience 2</a></h3>
-							<p class="inline"><i class="right">MM/YYYY-MM/YYYY</i></p>
-							<ul>
-								<li>Bullet Point 1</li>
-								<li>Bullet Point 2</li>
-								<li>Bullet Point 3</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-				<section id="project-section" role="region">
-					<div class="container">
-						<h2 id="projects">Projects</h2>
-						<div id="project-gallery">
-						<img src="https://via.placeholder.com/150">
-						<img src="https://via.placeholder.com/150">
-						<img src="https://via.placeholder.com/150">
+			</li>
+			<!--experience 2-->
+			<li>
+				<div class="collapsible-header">Event Coordinator <span>@ <a href="https://www.saseconnect.org/">Society of Asian Scientists and Engineers</a></span></div>
+				<div class="collapsible-content">
+					<p class="details">Sep 2021 - Present | Boston, MA</p>
+					<ul>
+						<li>Coordinate over 25 events throughout academic year for 850+ club members by collaborating with
+							cross-functional teams to finalize decisions regarding marketing, logistics, and programming.</li>
+						<li>Conduct regular post-event evaluations to measure success and identify areas for improvement,
+							resulting in an 30% increase in member attendance and satisfaction.</li>
+					</ul>
 				</div>
-					</div>
-				</section>
-				<section id="contact-section" role="region">
-					<div class="container">
-						<h2 id="contact">Contact Me</h2>
-						<div id="email-contact">
-							<img class="platform-logo" src="https://via.placeholder.com/150">
-							<p class="contact-info" type="email">lbrianna@bu.edu</p>
+			</li>
+			<!--experience 3-->
+			<li>
+				<div class="collapsible-header">Research Assistant <span>@ <a href="https://www.chinfeichenlab.com/">Boston Children's Hospital</a></span></div>
+				<div class="collapsible-content">
+					<p class="details">Feb 2022 - Dec 2022 | Boston, MA</p>
+					<ul>
+						<li>Developed and maintained code using Python and OpenCV to analyze 100+ images of mouse brain sections to identify injection site and align with anatomical diagrams.</li>
+						<li>Implemented standard operating procedures for genotyping, perfusing and dissections, which resulted in a 12% reduction in errors and a 10% increase in experiment efficiency.</li>
+					</ul>
+				</div>
+			</li>
+			<!--experience-->
+			<li>
+				<div class="collapsible-header">Teaching Assistant <span>@ <a href="https:/google.com">Harvard MEDScience</a></span></div>
+				<div class="collapsible-content">
+					<p class="details">Sep 2020 - Jan 2022 | Boston, MA</p>
+					<ul>
+						<li>Led a team of 4 volunteers using Agile methodologies to design and execute 40+ engaging lesson
+							plans, resulting a 25% improvement in student understanding.</li>
+						<li>Mentored and coached 5 underrepresented high school youth, which increased student interest in
+							pursuing STEM careers by 20%.</li>
+					</ul>
+				</div>
+			</li>
+			<!--experience-->
+			<li>
+				<div class="collapsible-header">Project Management Intern <span>@ <a href="https://asiancdc.org/">Asian Community Development Corporation</a></span></div>
+				<div class="collapsible-content">
+					<p class="details">Jun 2021 - Aug 2021 | Boston, MA</p>
+					<ul>
+						<li>Spearheaded the successful execution of a 6-week Summer Leadership Academy for 16 Asian American youth by overseeing curriculum development to budgeting and logistics.</li>
+						<li>Produced visually striking and informative collateral to promote the program, including social media graphics, brochures, and flyers, using InDesign and Photoshop.</li>
+					</ul>
+				</div>
+			</li>
+			<!--experience-->
+			<li>
+				<div class="collapsible-header">Marketing Intern <span>@ <a href="https://southworthdevelopment.com/">Southworth Development</a></span></div>
+				<div class="collapsible-content">
+					<p class="details">Jun 2019 - Aug 2019 | Newton, MA</p>
+					<ul>
+						<li>Achieved a 20% increase in organic traffic to the luxury real estate property website by optimizing SEO meta tags, conducting keyword research, and implementing WordPress plugins to improve website speed and user experience.</li>
+						<li>Adapted to changes in Google Analytics by constantly analyzing and adjusting marketing campaigns to improve conversion rates and reduce bounce rates.</li>
+						<li>Influenced and persuaded clients to invest in a luxury real estate property by designing and presenting magazine advertisements that effectively showcased the property's unique features.</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</section>
+	<!--END #EXPERIENCE-->
+
+	<!--START #PROJECTS-->
+	<section id="projects" class="projects section">
+		<h2>projects</h2>
+		<div class="thin-line"></div>
+		<div class="project-row">
+			<!--START #PROJECT1-->
+
+			<div class="project-img">
+				<img src="https://wplook.com/wp-content/uploads/2018/03/instagram-photo-size-vertical-1350-1080.jpg" alt="project image" width="300" />
+				<div class="image-overlay">
+					<a href="https://google.com">
+						<div class="image-text">
+							<p class="label" align="center"><span class="project-span">Project Title</span><br><span class="date-span">Date</span><br><span class="description-span">Description</span></p>
 						</div>
-						<div id="linkedin-contact">
-							<img class="platform-logo" src="https://via.placeholder.com/150">
-							<p>LinkedIn</p>
-						</div>
-						<div id="github-contact">
-						<img class="platform-logo" src="https://via.placeholder.com/150">
-						<p>GitHub</p>
-					</div>
-					</div>
-				</section>
+					</a>
+				</div>
 			</div>
-		</main>
-	</body>
+
+			<!--END #PROJECT1-->
+
+			<!--START #PROJECT1-->
+
+			<div class="project-img">
+				<img src="https://wplook.com/wp-content/uploads/2018/03/instagram-photo-size-vertical-1350-1080.jpg" alt="project image" width="300" />
+				<div class="image-overlay">
+					<a href="https://google.com">
+						<div class="image-text">
+							<p class="label" align="center"><span class="project-span">Project Title</span><br><span class="date-span">Date</span><br><span class="description-span">Description</span></p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<!--END #PROJECT1-->
+			<!--START #PROJECT1-->
+
+			<div class="project-img">
+				<img src="https://wplook.com/wp-content/uploads/2018/03/instagram-photo-size-vertical-1350-1080.jpg" alt="project image" width="300" />
+				<div class="image-overlay">
+					<a href="https://google.com">
+						<div class="image-text">
+							<p class="label" align="center"><span class="project-span">Project Title</span><br><span class="date-span">Date</span><br><span class="description-span">Description</span></p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--END #PROJECT1-->
+	</section>
+	<!--END #PROJECTS-->
+	<!--START #BLOG-->
+	<section id="blog" class="section">
+		<h2>blog</h2>
+		<div class="thin-line"></div>
+		<p>Coming soon!</p>
+	</section>
+	<!--END #BLOG-->
+	<!--START #CONTACT-->
+	<section id="contact" class="contact section">
+		<h2>contact</h2>
+		<div class="thin-line"></div>
+		<p>Let's talk! Free free to reach out with questions and comments.</p>
+		<!--START .CONTAINER-->
+		<div class="container">
+			<!--START LINKEDIN-->
+			<div id="linkedin" class="socials">
+				<img src="https://www.citypng.com/public/uploads/preview/linkedin-square-white-icon-transparent-png-11640440452zi2ykndpw2.png" alt="linkedin logo"/>
+					<a href="https://www.linkedin.com/in/lbrianna/"><p>LinkedIn</p></a>
+			</div>
+			<!--END LINKEDIN-->
+			<!--START GITHUB-->
+			<div id="github" class="socials">
+				<img src="https://i.ibb.co/rZRk1Z7/github-mark-white.png" alt="github-mark-white" />
+				<a href="https://github.com/lbrianna"><p>GitHub</p></a>
+			</div>
+			<!--END GITHUB-->
+			<!--START EMAIL-->
+			<div id="email" class="socials">
+				<img src="https://i.ibb.co/0h09s9S/Email-lgoo.png" alt="linkedin logo"/>
+				<a href = "mailto: briannali.work@gmail.com"><p>Email</p></a>
+			</div>
+			<!--END EMAIL-->
+		</div>
+		<!--END .CONTAINER-->
+	</section>
+	<!--END #CONTACT-->
+</body>
+
 </html>
